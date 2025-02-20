@@ -1,0 +1,10 @@
+
+
+title = "clickhouse_config_info"
+
+[database]
+host='localhost'
+port=9000
+user='default'
+password=''
+database='default'

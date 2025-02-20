@@ -1,0 +1,45 @@
+
+title = "binance_market_data_mapping_info"
+
+[spot.tick_trade]
+"eventType" = "e"
+"timestamp" = "E"
+"symbol" = "s"
+"tickTradeId" = "t"
+"tradingPrice" = "p"
+"tradingVolume" = "q"
+"tradingTime" = "T"
+"isMaker" = "m"
+"ignoreField" = "M"
+[spot.aggregate_trade]
+"eventType" = "e"
+"timestamp" = "E"
+"symbol" = "s"
+"aggregateTradeId" = "a"
+"tradingPrice" = "p"
+"tradingVolume" = "q"
+"firstTradeId" = "f"
+"lastTradeId" = "l"
+"tradingTime" = "T"
+"isMaker" = "m"
+"ignoreField" = "M"
+[spot.market_depth]
+"lastUpdateId" = "lastUpdateId"
+"bids" = "bids"
+"asks" = "asks"
+[spot.update_market_depth]
+"eventType" = "e"
+"timestamp" = "E"
+"symbol" = "s"
+"firstUpdateId" = "U"
+"lastUpdateId" = "u"
+"bids" = "b"
+"asks" = "a"
+[spot.best_order]
+"updateId" = "u"
+"symbol" = "s"
+"bestBidPrice" = "b"
+"bestBidVolume" = "B"
+"bestAskPrice" = "a"
+"bestAskVolume" = "A"
+

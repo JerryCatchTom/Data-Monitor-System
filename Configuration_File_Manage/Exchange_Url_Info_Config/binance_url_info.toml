@@ -1,0 +1,31 @@
+# Author: Jerry;
+# Create Date: 2025/01/27 ;
+# Version: 1.0.0 -Create;
+
+title = "binance_url_info"
+
+# spot api info
+[spot]
+rest_base_api = "https://api.binance.com"
+websocket_base_api = "wss://stream.binance.com:9443/ws"
+[spot.spare_base_api]
+websocket_spare_base_api = ["websocket_base_api"]
+rest_spare_base_api = ["https://api-gcp.binance.com", "https://api1.binance.com",
+                       "https://api2.binance.com", "https://api3.binance.com",
+                       "https://api4.binance.com"]
+[spot.websocket_api]
+tick_trade = "@trade"
+aggregate_trade = "@aggTrade"
+market_depth = "@depth20@100ms"
+update_market_depth = "@depth@100ms"
+best_order = "@bookTicker"
+[spot.rest_api]
+kline = "/api/v3/klines"
+asset_info = "/api/v3/exchangeInfo"
+
+
+
+
+
+
+
