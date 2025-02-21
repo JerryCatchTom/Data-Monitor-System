@@ -1,6 +1,6 @@
 
 # 1-Project Overview
-Data Monitor System is one of vital components of Cobweb System, which is expected to implement all operations of data in a trading system. Data Monitor System is mainly designed for fetching data from exchanges, unifying data in designated rules and publishing data to all data consumers. 
+**Data Monitor System (DSM)** is one of vital components of Cobweb System, which is expected to implement all operations of data in a trading system. Data Monitor System is mainly designed for fetching data from exchanges, unifying data in designated rules and publishing data to all data consumers. 
 
 # 2-Naming Convention
 **Naming Convention in DataBase:**
